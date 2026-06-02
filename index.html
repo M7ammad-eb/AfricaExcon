@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Program - AFRICA HEALTH ExCon 2025</title>
+    <style>
+        /* --- General Styles --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border-top: 8px solid #003366; /* Dark Blue from branding */
+        }
+
+        /* --- Header Styles --- */
+        .header {
+            background: linear-gradient(135deg, #003366 0%, #0a192f 100%);
+            color: #ffffff;
+            padding: 20px 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container img {
+            max-width: 150px;
+            max-height: 100px;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #D4AF37; /* Gold color from branding */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .header h2 {
+            margin: 5px 0 0;
+            font-size: 1.5em;
+            font-weight: normal;
+            color: #ffffff;
+        }
+        
+        /* --- Details Bar --- */
+        .details-bar {
+            background-color: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+            font-size: 0.95em;
+        }
+
+        .details-bar div {
+            margin: 5px 10px;
+        }
+
+        .details-bar strong {
+            color: #003366;
+        }
+
+        /* --- Agenda Content --- */
+        .agenda {
+            padding: 20px 30px;
+        }
+
+        .session {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #fdfdfd;
+        }
+        
+        .session-header {
+            border-bottom: 2px solid #D4AF37;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .session h3 {
+            font-size: 1.4em;
+            color: #003366;
+            margin: 0;
+        }
+        
+        .session .time {
+            font-size: 1.1em;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .session p {
+            line-height: 1.6;
+        }
+
+        .chairs {
+            font-style: italic;
+            color: #444;
+            font-size: 1em;
+            background-color: #f0f4f8;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+        
+        .discussion {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* --- Table Styles --- */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 1em;
+        }
+        
+        td:first-child {
+            width: 35%;
+        }
+
+        tr:nth-of-type(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td strong {
+            color: #003366;
+        }
+
+        /* --- Footer Styles --- */
+        .footer {
+            background-color: #0a192f;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8em;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .header h1 { font-size: 2em; }
+            .header h2 { font-size: 1.2em; }
+            .details-bar { flex-direction: column; }
+            th, td { padding: 8px; }
+            .session-header { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header class="header">
+            <div class="logo-container">
+                <img src="LOGO.png" alt="AASD Logo">
+            </div>
+            <h1>AFRICA HEALTH ExCon 2025</h1>
+            <h2>Scientific Conference: Diabetes</h2>
+        </header>
+
+        <section class="details-bar">
+            <div><strong>Date:</strong> Wednesday 25 June 2025 </div>
+            <div><strong>Location:</strong> Meeting Room 4N, Exhibition Hall N, EIEC, Cairo</div>
+        </section>
+
+        <main class="agenda">
+
+            <section class="session">
+                <div class="session-header">
+                    <h3>Session 1: Opening Session</h3>
+                    <div class="time">10:00 am - 10:20 am </div>
+                </div>
+                <p><strong>Panelists:</strong> Representatives of governmental sector, NGOS and IDF </p>
+                <div class="chairs"><strong>Moderators and chairmen (Alphabetical):</strong><br>
+                    Prof Amr El Meligi , Prof Elisabeth Denyoh, IDF Africa Chair , Prof Gamela Nasr , Prof Inass Shaltout , Prof Rawia Khater 
+                </div>
+            </section>
+
+            <section class="session">
+                 <div class="session-header">
+                    <h3>Session 2</h3>
+                    <div class="time">10:20 am – 11:15 am </div>
+                </div>
+                <div class="chairs"><strong>Chairmen (alphabetical):</strong><br>
+                    Prof Elisabeth Denyoh , Prof Gamela Nasr , Prof Hisham Magd El deen , Prof Inass Shaltout , Prof Mona Hegazi , Prof Rawia Khater 
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Speaker</th>
+                            <th>Topic</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Prof Peter Schartz (Germany)</strong><br><small>IDF President</small></td>
+                            <td>Rising Prevalence of Diabetes and How IDF Will Respond </td>
+                            <td>10 min </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prof Elizabeth E Denyoh</strong><br><small>IDF Africa Chair</small></td>
+                            <td>Access to Diabetes Care in-Sub Sahara Africa </td>
+                            <td>10 min </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prof Said Diob (Sénégal)</strong><br><small>Former IDF Africa chair</small></td>
+                            <td>The state of diabetes in Senegal: current burden. </td>
+                            <td>10 min </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prof Jacko ABODO (Côte d'Ivoire)</strong><br><small>IDF Vice president</small></td>
+                            <td>Challenge in diabetes management in Africa </td>
+                            <td>10 min </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prof Mohammed Hassanien (UAE)</strong></td>
+                            <td>Treatment guidelines for middle- and low-income health service </td>
+                            <td>10 min </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="discussion">Discussion (5 minutes) </div>
+            </section>
+            
+            <section class="session">
+                 <div class="session-header">
+                    <h3>Session 3: Type 2 Diabetes and Obesity Prevention Strategies in Youth </h3>
+                    <div class="time">11:15 am - 12:00 pm </div>
+                </div>
+                <div class="chairs"><strong>Chairmen:</strong><br>
+                    Prof IDF , Prof Abdel Kahek Hamed , Prof Ayman Menofi , Prof Nehal Hamdy , Prof Hisham Habib , Prof Rasha sobh 
+                </div>
+                <table>
+                     <thead>
+                        <tr>
+                            <th>Speaker</th>
+                            <th>Topic</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Prof Amr El Meligi</strong></td><td>A Provocative approach: Optimizing screening for overweight/obesity and type 2 diabetes in youth </td><td>6 min </td></tr>
+                        <tr><td><strong>Prof Inass Shaltout</strong></td><td>School-based interventions: employing institutional health policies </td><td>6 min </td></tr>
+                        <tr><td><strong>Prof Mona Hegazi</strong></td><td>Nutrition matters: affordable and culturally appropriate dietary interventions </td><td>6 min </td></tr>
+                        <tr><td><strong>Prof Hany Hamad</strong></td><td>The role of physical activity in digital age </td><td>6 min </td></tr>
+                        <tr><td><strong>Prof Iman el Sherif</strong></td><td>"Media and Leveraging technology: digital health solutions for diabetes prevention (AI, Mobile applications, social media " </td><td>6 min </td></tr>
+                        <tr><td><strong>Prof Aliaa Abdel Fatah</strong></td><td>Psychological aspects of obesity in youth </td><td>6 min </td></tr>
+                    </tbody>
+                </table>
+                 <div class="discussion">Discussion (9 minutes) </div>
+            </section>
+            
+            <section class="session">
+                 <div class="session-header">
+                    <h3>Session 4: Chronic Diabetic Complications in Africa </h3>
+                    <div class="time">12:00 pm – 1:00 pm </div>
+                </div>
+                <div class="chairs"><strong>Chairmen (alphabetical):</strong><br>
+                    Prof Amr El Meligi , Prof Eman El Sherif , Prof Hany Hammad , Prof Hosny Salama , Prof Laila Hamouda , Prof Nasser Taha , prof Sayed Gad , prof Yasser Abdel Hamid 
+                </div>
+                 <table>
+                     <thead>
+                        <tr>
+                            <th>Speaker</th>
+                            <th>Topic</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Prof Andrew Behnke (US)</strong></td><td>The Magic for CGM and Collaboration </td><td>10 min </td></tr>
+                        <tr><td><strong>Prof Tatjana Milenkovik (Macedonia)</strong></td><td>The link between diabetes and dementia </td><td>10 min </td></tr>
+                        <tr><td><strong>Prof Mick Kumwenda (UK-Ghana)</strong></td><td>Methods and challenges for the prevention of diabetic kidney disease in African Countries </td><td>8 min </td></tr>
+                        <tr><td><strong>Prof Gamila Nasr</strong></td><td>Cardiovascular disease prevention in people with diabetes in Africa </td><td>8 min </td></tr>
+                        <tr><td><strong>Prof Hesham Magd El Deen</strong></td><td>Prevention of Microvascular complications in African </td><td>8 min </td></tr>
+                        <tr><td><strong>Prof Abdel Khalek Hamed</strong></td><td>T2 Diabetes and MAFLD: Across the Gut-Liver Axis in African continent </td><td>10 min </td></tr>
+                    </tbody>
+                </table>
+                 <div class="discussion">Discussion (6 minutes) </div>
+            </section>
+            
+        </main>
+        
+        <footer class="footer">
+            <p><strong>Endorsed by:</strong> The Egyptian Authority for unified procurement, medical Supply, and the management of Medical Technology (UPA)</p>
+            <p><strong>Co-Hosted by:</strong> Africa Centres for Disease Control and Prevention (Africa CDC)</p>
+            <p><strong>In Collaboration with:</strong> African Union Development Agency (AUDA-NEPAD)</p>
+            <p><strong>Organized by:</strong> Global Conference Management (GCM)</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
